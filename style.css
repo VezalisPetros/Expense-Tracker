@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+
+body{
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    margin:20px;
+    font-family: sans-serif;
+    color: darkorchid;
+}
+
+.container{
+    margin: 30px;
+    width: 500px
+}
+
+h1{
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin: 40 0 10px;
+}
+
+h2{
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+.inc-exp-container{
+    padding: 20px 40px;
+   display: flex;
+   justify-content: space-between;
+    margin: 20px 0;
+    border-radius: 1rem;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.8)
+    
+}
+.inc-container,.exp-container{
+    text-align: center;
+}
+
+.money-plus{
+    font-size: 23px;
+    color:#2ecc71;
+}
+.money-minus{
+    font-size: 23px;
+    color: #c0392b;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding:10px;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+li.minus{
+    border-right:1px solid #c0392b;
+
+}
+
+li.plus{
+    border-right:1px solid #2ecc71;
+}
+
+
+.minus span{
+    color: #c0392b;
+}
+
+.plus span{
+    color:#2ecc71
+}
+
+.delete-btn{
+    cursor: pointer;
+    background-color: #c0392b;
+    border:none;
+    color:lightgray;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 1px 5px ; 
+    margin-left: 10px;
+}
+
+.delete-btn:active{
+    transform: scale(1.1);
+}
+
+
+
+
+.form-control label{
+    display: inline-block;
+    margin: 10px 0;
+    font-size:large;
+}
+
+input[type="text"],input[type="number"]{
+    border: none;
+    background-color: darkgrey;
+    border-radius: 0.5rem;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn{
+    margin-top:20px;
+    padding:15px;
+    width: 100%;
+    border-radius: 0.5rem;
+    font-size: large;
+    background-color: aquamarine;
+    transition: transform 200ms ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}

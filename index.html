@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <div class="container">
+        <h2>Your Balance</h1>
+        <h2 class="balance">$0.00</h2>
+        <div class="inc-exp-container">
+                <div class="inc-container">
+                    <h2>Income</h1>
+                    <p id="money-plus" class="money-plus">
+                        +$0.00
+                    </p>
+                </div>
+               <div class="exp-container">
+                <h2>Expense</h1>
+                <p id="money-minus" class="money-minus">
+                    -$0.00
+                </p>
+               </div>
+                
+        </div>
+
+        <h1>History</h1>
+        <ul class="list">
+            <!-- <li class="minus">
+                    Cash
+                    <div>
+                        <span>-$400</span>
+                        <button class="delete-btn">X</button>
+                    </div>
+                   
+
+            </li>
+            <li class="plus">
+                
+                 Rent
+                    <div>
+                        <span>+$6600</span>
+                        <button class="delete-btn">X</button>
+                    </div> -->
+        </ul>
+
+        <h1 >Add New Transaction</h1>
+        <form id="form">
+            <div class="form-control">
+
+                <label for="text">Name of Transaction:</label>
+                <input type="text" id="text" placeholder="Enter new Transaction">
+            </div>
+            <div class="form-control">
+
+                <label for="amound">Amount:</label>
+                <input type="number" id="amound" placeholder="Enter Amount">
+            </div>
+            <button class="btn">Add Transactions</button>
+        </form>
+    </div>
+    
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
